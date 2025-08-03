@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; 
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(200, 187, 187, 0.1);
+    transition: background-color 0.4s ease;
+    
+    
+}
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-links {
+  display: flex;
+  justify-content: center; 
+  gap: 50px;              
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: large;
+  transition: color 0.3s;
+  white-space: nowrap; 
+}
+
+  
+  .nav-links a:hover {
+    color: #007bffed;
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
