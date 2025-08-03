@@ -91,4 +91,13 @@
     font-size: 0.95rem;
     color: #888;
   }
+  @media (max-width: 768px) {
+  .footer {
+    font-size: 0.9rem;
+    padding: 25px 15px;
+  }
   
+  .footer .social-icons {
+    gap: 15px;
+  }
+}

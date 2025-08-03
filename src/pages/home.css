@@ -115,4 +115,56 @@
   .btn-download:hover {
     background-color: #218838;
   }
-  
+  @media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .home-left {
+    margin-top: 0;
+  }
+
+  .home-right {
+    margin-top: 30px;
+  }
+
+  .profile-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .home-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+}
+@media (max-width: 768px) {
+  .about-section {
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .about-section h2 {
+    font-size: 2rem;
+  }
+
+  .about-section p {
+    font-size: 1rem;
+  }
+}
