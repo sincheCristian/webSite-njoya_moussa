@@ -13,7 +13,7 @@ function Footer() {
         </div>
 
         <div className="footer-center">
-          <h4>Suivez-moi</h4>
+          <h4>Follow Me</h4>
           <div className="social-icons">
             <a href="https://www.instagram.com/njoya_moussa_" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
             <a href="https://www.facebook.com/moussa.njoya.463982" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>

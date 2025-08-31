@@ -7,17 +7,20 @@
     padding-top: 120px;
     flex-wrap: wrap;
     background-color: azure;
+    
   }
   
 
   .home-left{
     margin-top: -150px;
+    max-width: 80%;
   }
   .home-right {
     flex: 2;
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 80%;
   }
   
   h1 {
@@ -79,8 +82,8 @@
   }
   
   .profile-img {
-    width: 620px;
-    height: 600px;
+    width: 600px;
+    height: 580px;
     object-fit:contain;
     border-radius: 100%;
   }
