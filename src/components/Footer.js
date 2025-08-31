@@ -9,7 +9,7 @@ function Footer() {
         
         <div className="footer-left">
           <h3>Njoya Moussa</h3>
-          <p>Étudiant, enseignant et facilitateur international.<br />Connectons-nous sur les réseaux !</p>
+          <p>Student, Teacher, and International Facilitator.<br />Let’s connect on social media!</p>
         </div>
 
         <div className="footer-center">
@@ -24,15 +24,15 @@ function Footer() {
         <div className="footer-right">
           <h4>Navigation</h4>
           <ul>
-            <li><a href="#home">Accueil</a></li>
-            <li><a href="#about">À propos</a></li>
-            <li><a href="#service">Mes services</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">My services</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} Njoya Moussa. Tous droits réservés.</p>
+        <p>&copy; {new Date().getFullYear()}Njoya Moussa. All rights reserved.</p>
         <p className="signature">Conçu & codé avec ❤️ par <strong>Christian Sinche</strong></p>
       </div>
     </footer>

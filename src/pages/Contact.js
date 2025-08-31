@@ -26,11 +26,11 @@ function Contact() {
       'UUVINaWy0LUDtZGDZ'
     )
     .then(() => {
-      alert("Message envoyé avec succès !");
+      alert("Message sent successfully!");
       setFormData({ name: '', email: '', message: '' });
     })
     .catch((err) => {
-      alert("Erreur lors de l'envoi. Réessayez.");
+      alert("Error sending message. Please try again.");
       console.error(err);
     })
     .finally(() => {
@@ -42,23 +42,23 @@ function Contact() {
       <div className="contact-container">
         <h2>Contactez Moi</h2>
         <form onSubmit={handleSubmit} className="contact-form" noValidate>
-          <label htmlFor="name">Nom</label>
+          <label htmlFor="name">Name</label>
           <input 
             type="text" name="name" value={formData.name}
-            onChange={handleChange} required placeholder="Votre nom"
+            onChange={handleChange} required placeholder="Your Name"
           />
-          <label htmlFor="email">Email (Vérifier bien votre email avant d'envoyer)*</label>
+          <label htmlFor="email">Email (Make sure to check your email carefully before sending.)*</label>
           <input 
             type="email" name="email" value={formData.email}
-            onChange={handleChange} required placeholder="Votre email"
+            onChange={handleChange} required placeholder="Your email"
           />
           <label htmlFor="message">Message</label>
           <textarea 
             name="message" value={formData.message}
-            onChange={handleChange} required placeholder="Votre message" rows="5"
+            onChange={handleChange} required placeholder="Your message" rows="5"
           ></textarea>
           <button type="submit" className="btn-primary" disabled={isLoading}>
-            {isLoading ? "Envoi en cours..." : "Envoyer"}</button>
+            {isLoading ? "Sending..." : "Send"}</button>
         </form>
       </div>
     </section>

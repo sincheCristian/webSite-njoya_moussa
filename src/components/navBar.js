@@ -7,7 +7,7 @@ function NavBar() {
             <nav className="nav-links">
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
-                <a href='#service'>Mes Services</a>
+                <a href='#service'>My Services</a>
                 <a href="#contact">Contact</a>
             </nav>
         </header>

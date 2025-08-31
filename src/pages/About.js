@@ -5,69 +5,80 @@ function About() {
   return (
     <section className="about-section" id="about">
       <div className="about-container">
-        <h2 className="section-title">À propos de moi</h2>
+        <h2 className="section-title">About me</h2>
+
         <div className="about-text">
             <p>
-              Je suis <strong>Njoya Moussa</strong>, étudiant camerounais à l’Université de Kastamonu.
-              où je poursuis mes études avec passion et détermination.
-              Trilingue (Français, Anglais, Turc), passionné par l’éducation et les échanges interculturels.
+               <p><h4>Hello and welcome to my world </h4></p>
+               My name is <strong>Nji Njayou Njoya Moussa</strong> born on July 13th in Foumban, Cameroon, a city rich in culture,
+               history, and pride. I was raised in Cameroon where I completed my high school education at College IPBP, 
+               before embarking on a new chapter abroad.
             </p>
             <p>
-            En parallèle de mes études,j’enseigne l’anglais à <strong>Azerbey Okulu</strong>, j’aide les étudiants à venir à Kastamonu,
-            et je facilite les conversions CFA ↔ TL pour la communauté africaine en Turquie.
+              Today, I live in <strong>Kastamonu</strong> , <strong> Turkey </strong>, where I’m currently studying Civil Engineering at Kastamonu University. 
+              My journey has been anything but linear  and that’s exactly what has shaped my strength, 
+              resilience, and ambition.
             </p>
             <p>
-            Je crois profondément que l'éducation et les langues sont des clés pour ouvrir le monde.
-            Mon objectif est de devenir un pont entre les cultures, en aidant les jeunes à découvrir de nouvelles opportunités académiques et professionnelles.
-            Je rêve de construire une communauté d'entraide entre étudiants africains et turcs, où chacun peut apprendre, s’élever et inspirer les autres.
+              Over the years, I’ve worn many hats: I’ve worked as a teacher, a translator, a conversion agent
+              , a sales agent, and a business manager. Every experience taught me something valuable and pushed 
+               me closer to my ultimate goal: to become one of the greatest businessmen of my generation.
             </p>
             <p>
-            Ce que les gens apprécient chez moi, c’est ma capacité à écouter et à trouver des solutions concrètes.
-              Il m’est arrivé plus d’une fois d’aider un étudiant à trouver un logement en 24h, ou d’accompagner quelqu’un dans les démarches universitaires en plein week-end.
-              Je ne me contente pas de donner des conseils : je m’implique vraiment.
-            Pour moi, chaque rencontre est une opportunité de faire une différence.
+              I’m the founder of NM & Co, a growing business initiative that reflects my passion for entrepreneurship, leadership, 
+              and value creation. I’m also equipped with technical skills in AutoCAD, Microsoft Office, Canva, CapCut, and Meta 
+              Business Suite. I speak French, English, and Turkish fluently, which allows me to navigate and operate across diverse 
+              markets and communities.
+            </p>
+            <p>
+              What drives me every single day? A big dream. I aspire to be on the Forbes list as one of the richest and most 
+              impactful men on Earth. But more than just wealth, I want to build, inspire, and leave a legacy — to be remembered 
+              not just for what I achieved, but for what I helped others become.
             </p>
 
             <div className="timeline">
-              <h3>Parcours académique</h3>
+              <h3>Academic background</h3>
               <ul>
                 <li>
-                  <span className="year">2021 - Présent</span> Étudiant à l'Université de Kastamonu
+                  <span className="year">2021 - Now</span>Student at Kastamonu University
                 </li>
                 <li>
-                  <span className="year">2019 - 2021</span> Études secondaires au Cameroun
+                  <span className="year">2019 - 2021</span> Secondary education in Cameroon
                 </li>
               </ul>
             </div>
           </div>
         <div className="about-content">
           
-
           <div className="about-right">
             <div className="about-cards">
               <div className="card">
                 <span className="icon">🎓</span>
-                <h3>Étudiant</h3>
-                <p>Kastamonu Üniversitesi</p>
+                <h3>Student</h3>
+                <p>Kastamonu University</p>
               </div>
               <div className="card">
                 <span className="icon">🗣️</span>
-                <h3>Trilingue</h3>
-                <p>Français, Anglais, Turc</p>
+                <h3>Trilingual</h3>
+                <p>French, English, Turkish</p>
               </div>
               <div className="card">
                 <span className="icon">👨‍🏫</span>
-                <h3>Diversité Culturelle</h3>
-                <p>Voyage et nouvelles découverte</p>
+                <h3>Cultural Diversity</h3>
+                <p>Travel and New Discoveries</p>
               </div>
               <div className="card">
                 <span className="icon">💱</span>
-                <h3>Esprits d'entrepreneur</h3>
-                <p>L'assurence financiere est une obséssion pour ma personne</p>
+                <h3>Entrepreneurial Spirit</h3>
+                <p>Financial security is an obsession for me.</p>
               </div>
             </div>
           </div>
         </div>
+        <p>
+          This website is a glimpse into my journey, my projects, and my mission.
+          Thank you for being part of it.
+        </p>
       </div>
     </section>
   );

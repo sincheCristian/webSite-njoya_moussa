@@ -5,60 +5,61 @@ const servicesData = [
     {
       id: 1,
       icon: '💱',
-      title: 'Échanges monétaires',
+      title: 'Currency Exchange',
       description: `
-        Vous avez besoin de convertir de l'argent entre le Franc CFA et la Livre Turque (₺) ?
+        Need to convert money between the CFA Franc and the Turkish Lira (₺)?
   
-        ✅ Du Franc CFA vers la Livre Turque : commission de 10%
-        ✅ De la Livre Turque vers le Franc CFA : commission de 5%
+        ✅ From CFA Franc to Turkish Lira: 10% commission
+        ✅ From Turkish Lira to CFA Franc: 5% commission
   
-        Service rapide, sécurisé et accessible à tous les étudiants africains en Turquie.
+        Fast, secure service accessible to all African students in Turkey.
       `
     },
     {
       id: 2,
       icon: '📱',
-      title: 'Vente de téléphones',
+      title: 'Phone Sales',
       description: `
-        Moussa propose des téléphones neufs et d’occasion à prix compétitifs.
-        Livraison rapide, garanties disponibles, et conseils personnalisés pour bien choisir votre appareil.
+        Moussa offers new and used phones at competitive prices.
+        Fast delivery, warranties available, and personalized advice to help you choose the right device.
       `
     },
     {
       id: 3,
       icon: '🗣️',
-      title: 'Cours d’anglais',
+      title: 'English Lessons',
       description: `
-        Moussa enseigne l’anglais avec passion et méthode.
-        Cours particuliers ou en groupe, adaptés aux débutants comme aux avancés.
+        Moussa teaches English with passion and method.
+        Private or group lessons, suitable for beginners and advanced learners alike.
       `
     },
     {
       id: 4,
       icon: '🌍',
-      title: 'Facilitateur international',
+      title: 'International Facilitator',
       description: `
-        Vous souhaitez venir étudier en Turquie ? Moussa vous accompagne dans toutes les démarches : inscription universitaire, logement, visa, etc.
+        Want to study in Turkey? Moussa assists you with all procedures: university registration, housing, visa, and more.
       `
     },
     {
       id: 5,
       icon: '✈️',
-      title: 'Agence de voyage',
+      title: 'Travel Agency',
       description: `
-        Organisation complète de votre voyage vers la Turquie : billets d’avion, accueil à l’aéroport, logement temporaire, conseils administratifs.
+        Complete organization of your trip to Turkey: flight tickets, airport pickup, temporary accommodation, and administrative advice.
       `
     },
     {
       id: 6,
       icon: '💼',
-      title: 'Business & Représentation',
+      title: 'Business & Representation',
       description: `
-        Moussa représente des entreprises africaines en Turquie pour l’import-export.
-        Il met en relation acheteurs, étudiants, et partenaires d’affaires fiables.
+        Moussa represents African companies in Turkey for import-export.
+        He connects buyers, students, and reliable business partners.
       `
     }
-  ];
+];
+
   
 
 function Services() {
@@ -78,7 +79,7 @@ function Services() {
 
   return (
     <section className="services-section" id="service">
-      <h2>Mes Services</h2>
+      <h2>My Services</h2>
 
       <div className="slider-wrapper">
         <button className="arrow left-arrow" onClick={() => scroll('left')} aria-label="Défiler vers la gauche">
